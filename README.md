@@ -8,9 +8,9 @@ The model is a feed forward (Sequential in keras) deep neural network with 2 hid
 
 **Input layer** - flattening layer which converts the multidimensional input dataset (in our case, 2D dataset (28x28)) into a single dimensional vector.
 
-**Hidden layers** - Dense layers with 128 units (neurons) with 'ReLU' activation. 
+**Hidden layers** - Dense layers with 128 units (neurons) with ReLU (Rectified Linear Unit) activation. 
 
-**Output layer** - Dense layer with 10 units (since our data has 10 classes) with 'softmax' activation.
+**Output layer** - Dense layer with 10 units (since our data has 10 classes) with softmax activation.
 
 ## Training the model : 
 Model is trained for 3 epochs with adam optimizer and sparse categorical crossentropy to calculate loss.
